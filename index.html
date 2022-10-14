@@ -16,7 +16,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -36,7 +36,7 @@
           </div>
           <div class="about-col2">
             <h1 class="sub">About me</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum a maiores sint porro velit laboriosam iure doloribus quae. Distinctio fugit, sint tempore, ipsam quis officia modi, adipisci accusamus magnam totam amet illo incidunt asperiores voluptatem facilis repudiandae nostrum laborum. Modi veritatis distinctio id totam, incidunt dolor. Neque officia corporis ipsa.</p>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum a maiores sint porro velit laboriosam iure doloribus quae. Distinctio fugit, sint tempore, ipsam quis officia modi, adipisci accusamus magnam totam amet illo incidunt asperiores voluptatem facilis repudiandae nostrum laborum. Modi veritatis distinctio id totam, incidunt dolor. Neque officia corporis ipsa.</p>
 
             <div class="titles">
               <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
@@ -72,22 +72,31 @@
       </div>
     </div>
 
-    <script>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h1>Web Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis magnam molestias distinctio cum.</p>
+            <a href="#">Learn more</a>
+          </div>
 
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-      function opentab(tabname){
-        for(tablink of tablinks){
-          tablink.classList.remove("active-links");
-        }
-        for(tabcontent of tabcontents){
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-links")
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-      
+          <div>
+            <h1>Mobile App</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis magnam molestias distinctio cum.</p>
+            <a href="#">Learn more</a>
+          </div>
 
-    </script>
+          <div>
+            <h1>Graphics Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis magnam molestias distinctio cum.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
