@@ -284,8 +284,10 @@ form .btn-btn{
     display: inline-block;
     background: #ff004f;
     border-radius: 6px;
+    border: none;
+    color: #fff;
 }
-.copyright{
+.copyright p{
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -295,6 +297,6 @@ form .btn-btn{
 }
 @media only screen and (max-width: 600px){
     #header{
-        
+
     }
 }
