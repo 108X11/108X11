@@ -283,9 +283,14 @@ form .btn-btn{
     cursor: pointer;
     display: inline-block;
     background: #ff004f;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
     color: #fff;
+}
+.btn-btn:hover{
+    color: #ff004f;
+    background: #262626;
+    transition: 0.5s ease;
 }
 .copyright p{
     width: 100%;
