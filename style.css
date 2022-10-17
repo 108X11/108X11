@@ -38,7 +38,7 @@ nav ul li {
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
 }
 nav ul li a::after{
@@ -141,7 +141,7 @@ nav ul li a:hover::after{
     grid-gap: 45px;
     margin-top: 60px;
 }
-.services-list div{
+.services-list div {
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -169,8 +169,9 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover{
-    background: #ff004f;
+    background: #fff;
     transform: translate(-10px);
+    color: #ff004f;
 }
 #portfolio{
     padding: 50px 0;
@@ -205,7 +206,7 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 25px;
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
