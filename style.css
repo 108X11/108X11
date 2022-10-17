@@ -78,6 +78,10 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px;
 }
+.about-col2 .my-name{
+    font-family: 'Carter One', cursive;
+    color: rgba(100, 236, 26, 0.824);
+}
 .about-col2{
     flex-basis: 60%;
 }
