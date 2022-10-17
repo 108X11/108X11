@@ -137,9 +137,9 @@ nav ul li a:hover::after{
 }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-gap: 45px;
+    margin-top: 60px;
 }
 .services-list div{
     background: #262626;
@@ -161,10 +161,13 @@ nav ul li a:hover::after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 10px;
     display: inline-block;
+}.services-list .description{
+    font-size: 20px;
 }
+
 .services-list div:hover{
     background: #ff004f;
     transform: translate(-10px);
@@ -266,6 +269,10 @@ nav ul li a:hover::after{
     margin-right: 15px;
     color: #ababaa;
     display: inline-block;
+}
+.social a:hover{
+    color: #ff004f;
+    transition: 0.5s ease;
 }
 .contact-right form{
     width: 100%;
