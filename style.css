@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 body{
     background: #080808;
@@ -60,6 +60,8 @@ nav ul li a:hover::after{
 }
 .header-text h1{
     font-size: 60px;
+}
+.header-text p{
     margin-top: 20px;
 }
 #about{
@@ -192,6 +194,10 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+}
+.layer a:hover{
+    background-color: #ff004f;
+    color: #fff;
 }
 .layer{
     width: 100%;
